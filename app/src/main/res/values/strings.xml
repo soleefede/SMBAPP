@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SMB APP</string>
+    <string name="textView2">HoYa Rice Kitchen</string>
+    <string name="textView3">Our mission is to put fresh ingredient from our farm to your mouth. Here, we only provide organic rice that is grown with environmental-friendly methods.</string>
+    <string name="textView4">Hours</string>
+    <string name="textView5">11AM-2PM, 5-8PM, Close on Tuesdays</string>
+    <string name="textView6">Contact</string>
+    <string name="textView7">Phone: +886-3988-6730</string>
+    <string name="textView8">Facebook Fanpage</string>
+    <string name="textView9">Visit Us</string>
+</resources>
