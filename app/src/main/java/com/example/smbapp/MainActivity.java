@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         int height = getResources().getDimensionPixelSize(R.dimen.icon_size);
         int width = getResources().getDimensionPixelSize(R.dimen.icon_size);
-        BitmapDrawable bitmapdrawable=(BitmapDrawable)getResources().getDrawable(R.drawable.icon);
+        BitmapDrawable bitmapdrawable=(BitmapDrawable)getResources().getDrawable(R.drawable.icon_new);
         Bitmap smallMarker = Bitmap.createScaledBitmap(bitmapdrawable.getBitmap(), width, height, false);
         mMap.addMarker(new MarkerOptions().position(targetLocation).title("HoYa Rice Kitchen").icon(BitmapDescriptorFactory.fromBitmap(smallMarker)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(targetLocation));
